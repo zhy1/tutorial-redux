@@ -22,7 +22,7 @@ Redux 源码解析
 
   > createStore利用reducers和 initialize创建基础strore
   
-  > store提供的dispatch方法触发store中的reducers更新
+  > store提供的dispatch方法接受action，触发store中的reducers更新
   
   ### 代码表达
   ```
