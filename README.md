@@ -16,11 +16,11 @@ Redux 源码解析
 1. redux 使用
 
   https://github.com/happypoulp/redux-tutorial/blob/master/11_src/src/home.jsx
-  ## 说明
+  # 说明
   > createStore利用reducers和 initialize创建基础strore
   > store提供的dispatch方法触发store中的reducers更新
   
-  ## 代码表达
+  # 代码表达
   ```
   定义reducer 类似addlistener的处理方法
   var reducer_0 = function (state = {}, action) {
