@@ -2,7 +2,9 @@ a# tutorial-redux
 
 
 
-Redux 源码解析
+# Redux 源码解析
+
+## 我怎么理解redux? 即带有fp的listener
 
 
 # 认识 redux 使用
