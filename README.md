@@ -7,10 +7,10 @@ a# tutorial-redux
 ## 我怎么理解redux? 即带有fp的listener
 
 
-# 认识 redux 使用
-# 认识 react-redux使用
-# redux 源码解析
-# react-redux 源码解析
+##### 认识 redux 使用
+##### 认识 react-redux使用
+##### redux 源码解析
+##### react-redux 源码解析
 
 
 
@@ -22,11 +22,11 @@ a# tutorial-redux
 
   ### 说明
   
-  > 预备知识 观察者模式、函数式编程fp
+> 预备知识 观察者模式、函数式编程fp
 
-  > createStore利用reducers和 initialize创建基础strore
-  
-  > store提供的dispatch方法接受action 触发store中的reducers更新
+> createStore利用reducers和 initialize创建基础strore
+
+> store提供的dispatch方法接受action 触发store中的reducers更新
   
   ### 代码表达
   ```
