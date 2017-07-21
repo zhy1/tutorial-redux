@@ -15,7 +15,7 @@ a# tutorial-redux
 
 
 
-1. redux 使用
+# 1. redux 使用
 
   https://github.com/happypoulp/redux-tutorial/blob/master/11_src/src/home.jsx
   
@@ -61,12 +61,22 @@ a# tutorial-redux
    ```
    
    
-2.react-redux 使用
+# 2.react-redux 使用
 
 ## 说明
 > 预备知识：react生命周期、react中props和state区别、es7装饰器
 
 > <Provider /> 接受一个store使应用被store包含，基本
+
+> connect把组件和store进行绑定以支持redux
+
+
+# 3. redux 源码阅读
+
+
+
+
+# 4. react-redux 源码阅读
 
 > mapDispatchToProps 传入actionCreator名字即可绑定，在组件作用域的任何地方拿到props中的actionCreator进行dispatch
 
@@ -77,15 +87,6 @@ a# tutorial-redux
 > Subscription 对事件监听器的管理
 
 > connectAdvanced 使connect拥有subscirpt订阅消息的能力
-
-
-
-
-
-
-
-
-
 
 
 
