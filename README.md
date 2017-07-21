@@ -21,6 +21,7 @@ Redux 源码解析
   ### 说明
 
   > createStore利用reducers和 initialize创建基础strore
+  
   > store提供的dispatch方法触发store中的reducers更新
   
   ### 代码表达
