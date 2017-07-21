@@ -72,7 +72,20 @@ a# tutorial-redux
 
 
 # 3. redux 源码阅读
+```
 
+applyMiddleware 增强createStore
+bindActionCreator 关键代码如下：符合条件的actionCreator被action  wapper
+function bindActionCreator(actionCreator, dispatch) {
+  return (...args) => dispatch(actionCreator(...args))
+}
+combineReducers 合并多个reducer
+
+
+
+
+
+```
 
 
 
