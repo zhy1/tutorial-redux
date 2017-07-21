@@ -1,4 +1,4 @@
-# tutorial-redux
+a# tutorial-redux
 
 
 
@@ -64,11 +64,18 @@ Redux 源码解析
 ## 说明
 > 预备知识：react生命周期、react中props和state区别、es7装饰器
 
-> <Provider /> 接受一个store使应用被store包含
+> <Provider /> 接受一个store使应用被store包含，基本
 
-> mapDispatchToProps 传入actionCreator名字即可绑定，dispatch 调用 bindActionCreators 对 actionCreator做合并使应用可以在props中使用
+> mapDispatchToProps 传入actionCreator名字即可绑定，在组件作用域的任何地方拿到props中的actionCreator进行dispatch
 
-> mapStateToProps 传入store命名空间中reducer的名字即
+> mapStateToProps 传入store命名空间中reducer的名字即可绑定，在组件创建和更新的时候可以拿到props中的reducer进行数据操作
+
+> connect把组件和store进行绑定，通过connectAdvanced中的Subscription可以订阅store中action发起的经过reducer处理过的更新，并把更新反应到绑定好store的组件，
+
+> Subscription 对事件监听器的管理
+
+> connectAdvanced 使connect拥有subscirpt订阅消息的能力
+
 
 
 
