@@ -19,10 +19,12 @@ Redux 源码解析
   
 
   ### 说明
+  
+  > 预备知识 观察者模式、函数式编程fp
 
   > createStore利用reducers和 initialize创建基础strore
   
-  > store提供的dispatch方法接受action，触发store中的reducers更新
+  > store提供的dispatch方法接受action 触发store中的reducers更新
   
   ### 代码表达
   ```
@@ -58,3 +60,30 @@ Redux 源码解析
    
    
 2.react-redux 使用
+
+## 说明
+> 预备知识：react生命周期、react中props和state区别、es7装饰器
+
+> <Provider /> 接受一个store使应用被store包含
+
+> mapDispatchToProps 传入actionCreator名字即可绑定，dispatch 调用 bindActionCreators 对 actionCreator做合并使应用可以在props中使用
+
+> mapStateToProps 传入store命名空间中reducer的名字即
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
